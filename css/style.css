@@ -8861,13 +8861,11 @@ h1, h2, h3, h4, h5,
     margin-bottom: 10px;
     color: #ffbd39; }
   .services-1:hover {
-    background: #ffbd39; }
+    background: var(--gray-dark);
+   }
     .services-1:hover .icon i {
       color: #fff; }
-    .services-1:hover h3 {
-      color: #000000; }
-      .services-1:hover h3:after {
-        background: #000000; }
+
 
 .progress-wrap {
   width: 100%;
